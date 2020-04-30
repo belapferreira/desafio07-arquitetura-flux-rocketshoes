@@ -34,7 +34,7 @@
 -  Ambiente para desenvolvimento mobile configurado conforme sistema operacional utilizado
 
 ### :arrow_down_small: Clonando o repositório
-Pelo terminal, acesse o diretório em que deseja ter repositório clonado e execute o comando a seguir.
+Pelo terminal, acesse o diretório em que deseja ter o repositório clonado e execute o comando a seguir.
 ```bash
 # clonando o repositório
 git clone https://github.com/belapferreira/desafio07-arquitetura-flux-rocketshoes
