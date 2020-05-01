@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import Icon from 'react-native-vector-icons/MaterialIcons';
@@ -84,7 +83,7 @@ function Cart({ cart, total, removeFromCart, updateAmountRequest }) {
             ))}
           </Products>
           <TotalContainer>
-            <TotalText>TOTA</TotalText>
+            <TotalText>TOTAL</TotalText>
             <TotalPrice>{total}</TotalPrice>
             <Order>
               <OrderText>FINALIZAR PEDIDO</OrderText>
