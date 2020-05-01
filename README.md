@@ -103,7 +103,6 @@ digite r no terminal || cmd + r e reload || ctrl + m e reload
 -  [Reactotron React Native](https://github.com/infinitered/reactotron/blob/master/docs/quick-start-react-native.md)
 -  [Reactotron Redux](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux.md)
 -  [Reactotron Redux Saga](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux-saga.md)
--  [Reactotron Redux Saga](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux-saga.md)
 -  [Immer](https://github.com/immerjs/immer)
 -  [History](https://github.com/ReactTraining/history/tree/3f69f9e07b0a739419704cffc3b3563133281548)
 
