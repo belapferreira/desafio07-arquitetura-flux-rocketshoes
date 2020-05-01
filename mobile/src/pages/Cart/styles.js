@@ -8,8 +8,6 @@ export const Container = styled.View`
   margin: 15px;
 `;
 
-export const Products = styled.View``;
-
 export const Product = styled.View``;
 
 export const ProductInfo = styled.View`
