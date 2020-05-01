@@ -40,36 +40,35 @@ Pelo terminal, acesse o diretório em que deseja ter o repositório clonado e ex
 git clone https://github.com/belapferreira/desafio07-arquitetura-flux-rocketshoes
 ```
 ### :computer: Iniciando o frontend
-Pelo terminal, acesse o diretório fronted do repositório clonado e execute os comandos a seguir separadamente.
+Pelo terminal, acesse o diretório fronted do repositório clonado e execute os seguintes comandos separadamente.
 ```bash
 # instalando as dependências
 yarn install
 
 # iniciando a API (os últimos 4 números, no exemplo abaixo '3333', é a porta utilizada para o servidor da API fictícia)
-json-server server.json -p 3333
+npx json-server server.json -p 3333
 
 # iniciando a aplicação
 yarn start
 ```
 ### :iphone: Iniciando o mobile
-Pelo terminal, acesse o diretório mobile do repositório clonado e execute os comandos a seguir separadamente.
-```bash
-# instalando as dependências
-yarn install
-
-# iniciando a API (os últimos 4 números, no exemplo abaixo '3333', é a porta utilizada para o servidor da API fictícia)
-json-server server.json -p 3333
-
-# redirecionando porta (em outra janela do terminal)
-adb reverse tcp:3333 tcp:3333
-```
 Inicialize o emulador ou conecte o dispositivo físico e verifique a disponibilidade em uma janela do terminal.
 ```bash
 # verificando dispositivos disponíveis
 adb devices
 ```
-Abra uma nova janela do terminal, acesse o diretório mobile do repositório clonado e faça a instalação e inicialização da aplicação seguindo os comandos abaixo. A aplicação foi desenvolvida utilizando recursos direcionados para Android e pode necessitar de ajustes para dispositivos iOS.
+Pelo terminal, acesse o diretório mobile do repositório clonado e execute os comandos abaixo separadamente.
+```bash
+# instalando as dependências
+yarn install
 
+# iniciando a API (os últimos 4 números, no exemplo abaixo '3333', é a porta utilizada para o servidor da API fictícia)
+npx json-server server.json -p 3333
+
+# redirecionando porta (em outra janela do terminal, necessário quando estiver emulando pelo Android Studio)
+adb reverse tcp:3333 tcp:3333
+```
+Abra uma nova janela do terminal, acesse o diretório mobile do repositório clonado e faça a instalação e inicialização da aplicação seguindo os próximos comandos. A aplicação foi desenvolvida utilizando recursos direcionados para Android e pode necessitar de ajustes para dispositivos iOS.
 ```bash
 # instalando a aplicação no dispositivo
 react-native run-android
